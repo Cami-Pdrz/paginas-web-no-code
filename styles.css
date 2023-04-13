@@ -38,12 +38,28 @@ header{
 
 #hero .contenedor-informacion {
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+
 }
 #hero .contenedor-informacion #foto {
     width: 200px;
 }
 #hero .contenedor-informacion #foto img {
     border-radius: 100%;
+}
+#hero .contenedor-informacion .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+}
+#hero .contenedor-informacion .informacion span {
+    display: inline-block;
+    color: #b5b5b5;
+    margin-bottom: 70px;
+
 }
