@@ -17,15 +17,15 @@ body{
 /* Acá tengo los estilos del header */
 
 header{
-    background: #1f1f11;
-    padding: 10px 30px;
+    background: rgb(29, 27, 27);
+    padding: 0px 40px;
 }
 #logo {
-    width: 50px;
+    width: 100px;
 }
 #logo img {
     border-radius: 100%;
-    border: 2px solid #8f0707;
+    border: 1px solid #a19204;
 }
 /* Acá están los estilos del hero */
 #hero {
